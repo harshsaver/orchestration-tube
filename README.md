@@ -16,7 +16,7 @@ It's the top of a funnel for [October](https://www.october.dev): Instagram reels
 | `pipeline/from_hackertube.py` | Pulls the AI / LLM videos out of [HackerTube's dataset](https://hackertube.org/data) (20 years of HN, strict filter). Good for the foundations. |
 | `pipeline/shortlist.py` | Turns the mined candidates into `data/shortlist.md`: videos 2+ people linked, with titles and the comments that linked them. This is what you read to pick. |
 | `pipeline/build.py` | Checks every pick still exists and can be embedded, checks every quote word for word against its HN comment, adds the HN numbers (and durations, with an API key), writes `site/data.js` and `content/reels.md`. |
-| `content/reels.md` | One reel brief per video: hook, take-away, link. Generated. |
+| `content/reels.md` | One reel brief per video: hook, why, HN quote, link. Generated. |
 | `data/` | Candidate lists from the two sources plus small caches. `data/raw/` is not committed. |
 
 ## Run it
@@ -55,12 +55,6 @@ python3 -I pipeline/build.py
 
 `build.py` fails if a pick has been deleted, made private or can't be embedded, or if a quote isn't in the comment it links to, so a monthly rebuild catches rot.
 
-## What the data says
-
-- **The basics have strong agreement.** Karpathy's one-hour intro was linked by 23 different people in HN comments; Karpathy and 3Blue1Brown dominate level 0.
-- **Hands-on agent videos have a little.** Most level 1–2 picks were linked by 2–5 people.
-- **Running many agents at once has almost none.** Nearly every orchestration/swarm video on HN was linked by one person, often its own author. Level 4 is the best of a thin field, and it's labelled that way on the site. This is also the gap where October's own videos would have the least competition.
-
 ### Durations
 
 YouTube's oEmbed doesn't give durations. To show them (and "~N hours total" on the site), create a free YouTube Data API key in Google Cloud and run:
@@ -68,6 +62,12 @@ YouTube's oEmbed doesn't give durations. To show them (and "~N hours total" on t
 ```bash
 YOUTUBE_API_KEY=... python3 -I pipeline/build.py
 ```
+
+## What the data says
+
+- **The basics have strong agreement.** Karpathy's one-hour intro was linked by 23 different people in HN comments; Karpathy and 3Blue1Brown dominate level 0.
+- **Hands-on agent videos have a little.** Most level 1–2 picks were linked by 2–5 people.
+- **Running many agents at once has almost none.** Nearly every orchestration/swarm video on HN was linked by one person, often its own author. Level 4 is the best of a thin field, and it's labelled that way on the site. This is also the gap where October's own videos would have the least competition.
 
 ## Credits and licences
 
