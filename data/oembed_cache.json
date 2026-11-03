@@ -1,8 +1,18 @@
 {
+ "-DSCZX3uG_c": {
+  "channel": "Entory \uc5d4\ud1a0\ub9ac - photo cards, drawn \ud3ec\uce74",
+  "ok": true,
+  "title": "Automated CI CD Pipeline \u2014 macOS Code Signing & Notarization"
+ },
  "160F8F8mXlo": {
   "channel": "Alex O'Connor",
   "ok": true,
   "title": "Why ChatGPT Can't Draw a Full Glass of Wine"
+ },
+ "1OzxYK2-qsI": {
+  "channel": "Develocity",
+  "ok": true,
+  "title": "Measuring the Impact of AI on Developer Productivity at Meta"
  },
  "1sd26pWhfmg": {
   "channel": "unprompted",
@@ -13,6 +23,11 @@
   "channel": "Dwarkesh Patel",
   "ok": true,
   "title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end"
+ },
+ "2cnxea3xkzM": {
+  "channel": "Alex Chao",
+  "ok": true,
+  "title": "Why Autonomous Agents Failed the Initial Hype: An AutoGen Retrospective"
  },
  "5t1vTLU7s40": {
   "channel": "Lex Fridman",
@@ -44,15 +59,30 @@
   "ok": true,
   "title": "Let's prototype a JavaScript JIT compiler!"
  },
+ "8pTEmbeENF4": {
+  "channel": "Joey Reid",
+  "ok": true,
+  "title": "Bret Victor   The Future of Programming"
+ },
  "9uw3F6rndnA": {
   "channel": "Lex Clips",
   "ok": true,
   "title": "Transformers: The best idea in AI | Andrej Karpathy and Lex Fridman"
  },
+ "AL-PQuB2wy0": {
+  "channel": "OPENRIG",
+  "ok": true,
+  "title": "I Run an AI Civilization in Herdr"
+ },
  "AaTRHFaaPG8": {
   "channel": "Lex Fridman",
   "ok": true,
   "title": "Eliezer Yudkowsky: Dangers of AI and the End of Human Civilization | Lex Fridman Podcast #368"
+ },
+ "AnHiAWlrYQc": {
+  "channel": "Paramount Plus",
+  "ok": true,
+  "title": "I Love Lucy | Lucy And Ethel At The Chocolate Factory (S2, E1) | Paramount+"
  },
  "Bf-dbS9CcRU": {
   "channel": "Microsoft",
@@ -78,15 +108,40 @@
   "ok": true,
   "title": "How I use LLMs"
  },
+ "FBSam25u8O4": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "How can I communicate better with my mom?"
+ },
  "Fc3cW0nqAQ0": {
   "channel": "Saman Amarasinghe",
   "ok": true,
   "title": "Programming Language Design and Implementation in the Era of Machine Learning"
  },
+ "FeAMiBKi_EM": {
+  "channel": "gamedev cuts",
+  "ok": true,
+  "title": "Software is in Decline - Jonathan Blow"
+ },
+ "GCx6tKJVw2o": {
+  "channel": "Myles",
+  "ok": true,
+  "title": "I Built the AI That Cuts Dev Onboarding From 3 Weeks to 3 Days (Claude Code Pro Tips)"
+ },
+ "Gg-w_n9NJIE": {
+  "channel": "MITCBMM",
+  "ok": true,
+  "title": "CBMM10 Panel: Research on Intelligence in the Age of AI"
+ },
  "HB5TrK7A4pI": {
   "channel": "Strange Loop Conference",
   "ok": true,
   "title": "\"We Really Don't Know How to Compute!\" - Gerald Sussman (2011)"
+ },
+ "JREufgkf5pk": {
+  "channel": "Rzlv",
+  "ok": true,
+  "title": "PreDemo of FileNinja"
  },
  "JcQPAZP7-sE": {
   "channel": "Sixty Symbols",
@@ -98,6 +153,11 @@
   "ok": true,
   "title": "Interview with Vibe Coder in 2025"
  },
+ "KwNUJ69RbwY": {
+  "channel": "OpenAI",
+  "ok": true,
+  "title": "Be My Eyes Accessibility with GPT-4o"
+ },
  "LCEmiRjPEtQ": {
   "channel": "Y Combinator",
   "ok": true,
@@ -107,6 +167,16 @@
   "channel": "3Blue1Brown",
   "ok": true,
   "title": "Large Language Models explained briefly"
+ },
+ "LXzJR7K0wK0": {
+  "channel": "alittle116",
+  "ok": true,
+  "title": "Hospital computer interface of the future - Idiocracy"
+ },
+ "M8HuXu_bOco": {
+  "channel": "Solomon Alfred",
+  "ok": true,
+  "title": "Practical Tips on How to use ClaudeCode By Boris Cherny"
  },
  "NW6PhVdq9R8": {
   "channel": "The PrimeTime",
@@ -123,6 +193,16 @@
   "ok": true,
   "title": "How to Detect AI Slop"
  },
+ "OwMu0pyYZBc": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "Claude Code modernizes a legacy COBOL codebase"
+ },
+ "PUv66718DII": {
+  "channel": "Rui Oliveira",
+  "ok": true,
+  "title": "Bret Victor - Inventing on Principle"
+ },
  "PaCmpygFfXo": {
   "channel": "Andrej Karpathy",
   "ok": true,
@@ -133,14 +213,29 @@
   "ok": true,
   "title": "#30 We Need To Talk About AI..."
  },
+ "PgwpqjiKkoY": {
+  "channel": "David Shapiro",
+  "ok": true,
+  "title": "Why I canceled my Anthropic Claude account"
+ },
  "Q5baLehv5So": {
   "ok": false,
   "status": 401
+ },
+ "QgH9sr7G13Q": {
+  "channel": "Welch Labs",
+  "ok": true,
+  "title": "The most cited paper of the century is a brilliant hack"
  },
  "QrSCwxrLrRc": {
   "channel": "Answer in Progress",
   "ok": true,
   "title": "why AI can't pass this test"
+ },
+ "RjfbvDXpFls": {
+  "channel": "AI Engineer",
+  "ok": true,
+  "title": "Building pi in a World of Slop \u2014 Mario Zechner"
  },
  "Sir59K8ZDPU": {
   "channel": "AI Engineer",
@@ -167,6 +262,11 @@
   "ok": true,
   "title": "Oxford Researchers Discovered How to Use AI To Learn Like A Genius"
  },
+ "UCo7YeTy-aE": {
+  "channel": "Shawn Wang (swyx)",
+  "ok": true,
+  "title": "\ud83d\udc23 Introducing smol-developer - Human-centric & Coherent Whole Program Synthesis"
+ },
  "VMj-3S1tku0": {
   "channel": "Andrej Karpathy",
   "ok": true,
@@ -176,6 +276,16 @@
   "channel": "Computerphile",
   "ok": true,
   "title": "Glitch Tokens - Computerphile"
+ },
+ "WnzR5aOElvw": {
+  "channel": "Hannah Fry",
+  "ok": true,
+  "title": "Why AI Agents are either the best or worst thing we\u2019ve ever built"
+ },
+ "X50zezLFWWI": {
+  "channel": "Dwarkesh Patel",
+  "ok": true,
+  "title": "Ajeya Cotra \u2013 \"This might be the clearest warning shot we ever get\""
  },
  "X9RYuvPCQUA": {
   "channel": "Kirby Ferguson",
@@ -229,6 +339,11 @@
   "ok": false,
   "status": 404
  },
+ "aircAruvnKk": {
+  "channel": "3Blue1Brown",
+  "ok": true,
+  "title": "But what is a neural network? | Deep learning chapter 1"
+ },
  "ajGX7odA87k": {
   "channel": "USENIX",
   "ok": true,
@@ -253,6 +368,11 @@
   "channel": "karthink",
   "ok": true,
   "title": "Every LLM in Emacs, with gptel"
+ },
+ "c3b-JASoPi0": {
+  "channel": "Sequoia Capital",
+  "ok": true,
+  "title": "Making AI accessible with Andrej Karpathy and Stephanie Zhan"
  },
  "cP5zGh2fui0": {
   "channel": "Sabine Hossenfelder",
@@ -298,15 +418,30 @@
   "ok": true,
   "title": "Microsoft\u2019s Sneaky Forced-Upsell to 365 Users; If You Don\u2019t Need/Want Copilot, Don\u2019t Pay for It"
  },
+ "ebls5x-gb0s": {
+  "channel": "Microsoft",
+  "ok": true,
+  "title": "Introducing Microsoft 365 Copilot with Outlook, PowerPoint, Excel, and OneNote"
+ },
  "efPrtcLdcdM": {
   "channel": "Yannic Kilcher",
   "ok": true,
   "title": "GPT-4chan: This is the worst AI ever"
  },
+ "efUmcCiRoDU": {
+  "channel": "DevSwarm",
+  "ok": true,
+  "title": "The Plan-Do Orchestration Pattern: Parallel AI Coding That Actually Ships | DevSwarm"
+ },
  "f2FnYRP5kC4": {
   "channel": "Theo - t3\u2024gg",
   "ok": true,
   "title": "The Best Model For Frontend Design Is..."
+ },
+ "gQddtTdmG_8": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "Vectoring Words (Word Embeddings) - Computerphile"
  },
  "hGXhFa3gzBs": {
   "channel": "Subbarao Kambhampati",
@@ -343,6 +478,10 @@
   "ok": true,
   "title": "Large Language Models and the Future of Programming by Peter Norvig"
  },
+ "jGwO_UgTS7I": {
+  "ok": false,
+  "status": 401
+ },
  "jaM02mb6JFM": {
   "channel": "Gimel12",
   "ok": true,
@@ -357,6 +496,16 @@
   "channel": "Andrej Karpathy",
   "ok": true,
   "title": "Let's build GPT: from scratch, in code, spelled out."
+ },
+ "kQRu7DdTTVA": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "Can I get a six pack quickly?"
+ },
+ "kR64LOqBBCU": {
+  "channel": "AI Engineer",
+  "ok": true,
+  "title": "AgentCraft: Putting the Orc in Orchestration \u2014 Ido Salomon"
  },
  "l6DKRf-fAAM": {
   "channel": "3Blue1Brown",
@@ -373,6 +522,11 @@
   "ok": true,
   "title": "Andrej Karpathy \u2014 \u201cWe\u2019re summoning ghosts, not building animals\u201d"
  },
+ "manjyiUsfU8": {
+  "channel": "Entory \uc5d4\ud1a0\ub9ac - photo cards, drawn \ud3ec\uce74",
+  "ok": true,
+  "title": "AI Media Intelligence Platform"
+ },
  "nfOVgz_omlU": {
   "channel": "Armin Ronacher",
   "ok": true,
@@ -387,6 +541,11 @@
   "channel": "Code Sync",
   "ok": true,
   "title": "Keynote: Code Generators are Dead. Long Live Code Generators  - Chris McCord | ElixirConf EU 2025"
+ },
+ "omihvjf0A2k": {
+  "channel": "Claude",
+  "ok": true,
+  "title": "Getting started with Claude Code Projects"
  },
  "outcGtbnMuQ": {
   "channel": "OpenAI",
@@ -418,6 +577,11 @@
   "ok": true,
   "title": "Why Deep Learning Works Unreasonably Well [How Models Learn Part 3]"
  },
+ "qzpZQe7JT-o": {
+  "channel": "icitry",
+  "ok": true,
+  "title": "I Made a First-Person Shooter in COBOL From Scratch"
+ },
  "rCIZflYEpEk": {
   "channel": "Salvatore Sanfilippo",
   "ok": true,
@@ -433,6 +597,11 @@
   "ok": true,
   "title": "State of GPT | Microsoft Build | Andrej Karpathy | OpenAI"
  },
+ "tNmgmwEtoWE": {
+  "channel": "Internet of Bugs",
+  "ok": true,
+  "title": "Debunking Devin: \"First AI Software Engineer\" Upwork lie exposed!"
+ },
  "tbDDYKRFjhk": {
   "channel": "AI Engineer",
   "ok": true,
@@ -442,6 +611,21 @@
   "channel": "The Pragmatic Engineer",
   "ok": true,
   "title": "AI tools for software engineers, but without the hype \u2013 with Simon Willison (Co-Creator of Django)"
+ },
+ "up91rbPEdVc": {
+  "channel": "Samuel Gregory",
+  "ok": true,
+  "title": "Git Worktrees: The secret sauce to multi-agent workflows!"
+ },
+ "vH2f7cjXjKI": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "Claude | Computer use for coding"
+ },
+ "vJG698U2Mvo": {
+  "channel": "Daniel Simons",
+  "ok": true,
+  "title": "selective attention test"
  },
  "vaUuE582vq8": {
   "ok": false,
@@ -472,6 +656,11 @@
   "ok": true,
   "title": "Debate: Do Language Models Need Sensory Grounding for Meaning and Understanding?"
  },
+ "xXCBz_8hM9w": {
+  "channel": "Y Combinator",
+  "ok": true,
+  "title": "How To Build The Future: Sam Altman"
+ },
  "xoVJKj8lcNQ": {
   "channel": "Center for Humane Technology",
   "ok": true,
@@ -486,6 +675,16 @@
   "channel": "Alexander Amini",
   "ok": true,
   "title": "MIT 6.S191 (2023): Recurrent Neural Networks, Transformers, and Attention"
+ },
+ "yftBiNu0ZNU": {
+  "channel": "Chubbyemu",
+  "ok": true,
+  "title": "A man asked AI for health advice and it cooked every brain cell"
+ },
+ "zDmW5hJPsvQ": {
+  "channel": "Latent Space",
+  "ok": true,
+  "title": "Claude Code: Anthropic's CLI Agent"
  },
  "zZr54G7ec7A": {
   "channel": "Terence Tao",

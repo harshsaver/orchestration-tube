@@ -160,7 +160,16 @@
     $("player-title").textContent = v.title;
     $("player-channel").textContent = v.channel;
     $("player-why").textContent = v.why || "";
-    $("player-takeaway").textContent = v.takeaway ? "Take away: " + v.takeaway : "";
+    var q = $("player-quote");
+    q.textContent = "";
+    q.hidden = !v.quote;
+    if (v.quote) {
+      q.appendChild(el("p", { text: "“" + v.quote.text + "”" }));
+      var cite = el("p", { class: "cite" });
+      cite.appendChild(document.createTextNode("— "));
+      cite.appendChild(el("a", { href: "https://news.ycombinator.com/item?id=" + v.quote.hn, target: "_blank", rel: "noopener", text: "a Hacker News comment, " + v.quote.year }));
+      q.appendChild(cite);
+    }
     $("player-yt").href = "https://www.youtube.com/watch?v=" + v.vid;
     var inPath = path.some(function (p) { return p.v.vid === v.vid; });
     $("player-done").textContent = state.watched[v.vid] ? (inPath ? "Next video" : "Close") : (inPath ? "Mark watched & next" : "Mark watched");

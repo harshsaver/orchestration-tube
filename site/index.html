@@ -53,14 +53,14 @@
 
   <dialog id="player" aria-label="Video player">
     <div class="player-inner">
-      <button class="close" id="player-close" aria-label="Close">&times;</button>
       <div class="frame"><iframe id="player-frame" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <div class="player-meta">
+        <button class="close" id="player-close" aria-label="Close">&times;</button>
         <p class="eyebrow" id="player-level"></p>
         <h3 id="player-title"></h3>
         <p class="muted" id="player-channel"></p>
         <p id="player-why"></p>
-        <p class="takeaway" id="player-takeaway"></p>
+        <blockquote class="quote" id="player-quote" hidden></blockquote>
         <div class="player-actions">
           <button class="btn primary" id="player-done">Mark watched &amp; next</button>
           <a class="btn ghost" id="player-yt" target="_blank" rel="noopener">Open on YouTube</a>

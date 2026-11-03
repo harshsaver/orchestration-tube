@@ -11,10 +11,11 @@ It's the top of a funnel for [October](https://www.october.dev): Instagram reels
 | Path | What it is |
 |---|---|
 | `site/` | The site. Plain HTML/CSS/JS, no build step. `data.js` is generated. |
-| `curation/path.json` | **The picks.** The levels, the 20 videos, why each one, a take-away, a reel hook, the October notes, the method text. Edit this. |
+| `curation/path.json` | **The picks.** The levels, the 20 videos, why each one, a real HN quote, a reel hook, the October notes, the method text. Edit this. |
 | `pipeline/mine_hn.py` | Finds YouTube videos linked in Hacker News comments since 2023 that talk about agents, AI coding tools, LLMs. Counts how many different people linked each one, in how many months. |
 | `pipeline/from_hackertube.py` | Pulls the AI / LLM videos out of [HackerTube's dataset](https://hackertube.org/data) (20 years of HN, strict filter). Good for the foundations. |
-| `pipeline/build.py` | Checks every pick still exists and can be embedded, adds the HN numbers (and durations, with an API key), writes `site/data.js` and `content/reels.md`. |
+| `pipeline/shortlist.py` | Turns the mined candidates into `data/shortlist.md`: videos 2+ people linked, with titles and the comments that linked them. This is what you read to pick. |
+| `pipeline/build.py` | Checks every pick still exists and can be embedded, checks every quote word for word against its HN comment, adds the HN numbers (and durations, with an API key), writes `site/data.js` and `content/reels.md`. |
 | `content/reels.md` | One reel brief per video: hook, take-away, link. Generated. |
 | `data/` | Candidate lists from the two sources plus small caches. `data/raw/` is not committed. |
 
@@ -40,13 +41,25 @@ python3 -I pipeline/from_hackertube.py data/raw/videos.jsonl data/hackertube_ai.
 python3 -I pipeline/mine_hn.py data/hn_candidates.jsonl
 ```
 
-Mining takes a few minutes; it is polite to the API. Then look through `data/hn_candidates.jsonl` (sorted by how many people linked each video), edit `curation/path.json`, and rebuild:
+Mining takes about ten minutes; it is polite to the API. Then make the readable shortlist:
+
+```bash
+python3 -I pipeline/shortlist.py data/hn_candidates.jsonl data/shortlist.md
+```
+
+Read `data/shortlist.md`, edit `curation/path.json`, and rebuild:
 
 ```bash
 python3 -I pipeline/build.py
 ```
 
-`build.py` fails if a pick has been deleted, made private, or can't be embedded, so a monthly rebuild catches rot.
+`build.py` fails if a pick has been deleted, made private or can't be embedded, or if a quote isn't in the comment it links to, so a monthly rebuild catches rot.
+
+## What the data says
+
+- **The basics have strong agreement.** Karpathy's one-hour intro was linked by 23 different people in HN comments; Karpathy and 3Blue1Brown dominate level 0.
+- **Hands-on agent videos have a little.** Most level 1–2 picks were linked by 2–5 people.
+- **Running many agents at once has almost none.** Nearly every orchestration/swarm video on HN was linked by one person, often its own author. Level 4 is the best of a thin field, and it's labelled that way on the site. This is also the gap where October's own videos would have the least competition.
 
 ### Durations
 
