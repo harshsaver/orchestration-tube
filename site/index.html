@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caught Up: AI agents in 20 videos</title>
+  <meta name="description" content="Feeling behind on AI agents? 20 videos, in order, picked from what Hacker News keeps recommending. No login, no hype.">
+  <meta property="og:title" content="Caught Up: AI agents in 20 videos">
+  <meta property="og:description" content="You're not as behind as you think. 20 videos, in order.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Caught Up home">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M7.5 12.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Caught Up</span>
+    </a>
+    <div class="progress" aria-live="polite">
+      <div class="progress-bar"><span id="progress-fill"></span></div>
+      <span id="progress-label">0 of 20</span>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" id="updated"></p>
+      <h1>You're not as behind on AI agents as you think.</h1>
+      <p class="lede" id="lede"></p>
+      <div class="hero-actions">
+        <button class="btn primary" id="start">Start watching</button>
+        <a class="btn ghost" href="#how">How we picked them</a>
+      </div>
+      <ul class="stats" id="stats"></ul>
+    </section>
+
+    <div id="levels"></div>
+
+    <section class="month" id="this-month" hidden>
+      <div class="section-head">
+        <h2>New this month</h2>
+        <p>What changed recently and is worth an evening. Optional: the path above doesn't depend on it.</p>
+      </div>
+      <div class="grid" id="month-grid"></div>
+    </section>
+
+    <section class="how" id="how">
+      <h2>How we picked them</h2>
+      <div id="method"></div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <dialog id="player" aria-label="Video player">
+    <div class="player-inner">
+      <button class="close" id="player-close" aria-label="Close">&times;</button>
+      <div class="frame"><iframe id="player-frame" title="YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="player-meta">
+        <p class="eyebrow" id="player-level"></p>
+        <h3 id="player-title"></h3>
+        <p class="muted" id="player-channel"></p>
+        <p id="player-why"></p>
+        <p class="takeaway" id="player-takeaway"></p>
+        <div class="player-actions">
+          <button class="btn primary" id="player-done">Mark watched &amp; next</button>
+          <a class="btn ghost" id="player-yt" target="_blank" rel="noopener">Open on YouTube</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

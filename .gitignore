@@ -1,0 +1,4 @@
+# Raw downloads (re-fetch with the commands in README.md)
+data/raw/
+__pycache__/
+.DS_Store
