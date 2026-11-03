@@ -26,7 +26,7 @@ START = datetime(2023, 1, 1, tzinfo=timezone.utc)
 
 TERMS = [
     "agents", "agentic", "multi-agent", "subagents", "swarm",
-    "claude code", "codex", "cursor", "copilot", "aider", "windsurf",
+    "claude code", "claude", "anthropic", "codex", "cursor", "copilot", "aider", "windsurf", "devin",
     "vibe coding", "coding assistant", "ai coding", "llm", "llms",
     "mcp", "prompt engineering", "context engineering", "karpathy",
     "worktrees", "orchestration",
@@ -57,6 +57,7 @@ def fetch(query, lo, hi):
         "query": query,
         "tags": "comment",
         "hitsPerPage": 1000,
+        "typoTolerance": "false",
         "numericFilters": f"created_at_i>={lo},created_at_i<{hi}",
     }
     url = API + "?" + urllib.parse.urlencode(params)
@@ -81,12 +82,15 @@ def main(out_path):
     for term in TERMS:
         for prefix in PREFIXES:
             query = f"{prefix} {term}"
+            term_re = re.compile(r"\b" + re.escape(term).replace(r"\ ", r"[\s-]+") + r"\b", re.I)
             n = 0
             for lo, hi in quarters(START, now):
                 for h in fetch(query, lo, hi):
                     text = html.unescape(h.get("comment_text") or "")
                     vids = set(VID_RE.findall(text))
-                    if not vids:
+                    plain = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text))
+                    # Algolia matches loosely; keep only comments that really say the term.
+                    if not vids or not term_re.search(plain):
                         continue
                     for vid in vids:
                         v = videos[vid]
@@ -96,13 +100,12 @@ def main(out_path):
                         seen_comments.add((h["objectID"], vid))
                         v["authors"].add(h.get("author"))
                         v["months"].add(h["created_at"][:7])
-                        plain = re.sub(r"<[^>]+>", " ", text)
                         v["comments"].append({
                             "id": int(h["objectID"]),
                             "author": h.get("author"),
                             "month": h["created_at"][:7],
                             "story": h.get("story_title"),
-                            "snippet": re.sub(r"\s+", " ", plain)[:400],
+                            "snippet": plain[:600],
                         })
                         n += 1
                 time.sleep(0.2)

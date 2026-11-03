@@ -1,0 +1,515 @@
+{
+ "160F8F8mXlo": {
+  "channel": "Alex O'Connor",
+  "ok": true,
+  "title": "Why ChatGPT Can't Draw a Full Glass of Wine"
+ },
+ "1sd26pWhfmg": {
+  "channel": "unprompted",
+  "ok": true,
+  "title": "Nicholas Carlini - Black-hat LLMs | [un]prompted 2026"
+ },
+ "21EYKqUsPfg": {
+  "channel": "Dwarkesh Patel",
+  "ok": true,
+  "title": "Richard Sutton \u2013 Father of RL thinks LLMs are a dead end"
+ },
+ "5t1vTLU7s40": {
+  "channel": "Lex Fridman",
+  "ok": true,
+  "title": "Yann Lecun: Meta AI, Open Source, Limits of LLMs, AGI & the Future of AI | Lex Fridman Podcast #416"
+ },
+ "6eBSHbLKuN0": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "Mastering Claude Code in 30 minutes"
+ },
+ "7xTGNNLPyMI": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "Deep Dive into LLMs like ChatGPT"
+ },
+ "87DyyMV0kCY": {
+  "channel": "Black Hat",
+  "ok": true,
+  "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI\u2013Hugging Face Incident"
+ },
+ "8brENzmq1pE": {
+  "channel": "Bijan Bowen",
+  "ok": true,
+  "title": "Claude Opus 4.6 Is INSANE \u2013 This Might Be the BEST Model Yet!"
+ },
+ "8mxubNQC5O8": {
+  "channel": "Andreas Kling",
+  "ok": true,
+  "title": "Let's prototype a JavaScript JIT compiler!"
+ },
+ "9uw3F6rndnA": {
+  "channel": "Lex Clips",
+  "ok": true,
+  "title": "Transformers: The best idea in AI | Andrej Karpathy and Lex Fridman"
+ },
+ "AaTRHFaaPG8": {
+  "channel": "Lex Fridman",
+  "ok": true,
+  "title": "Eliezer Yudkowsky: Dangers of AI and the End of Human Civilization | Lex Fridman Podcast #368"
+ },
+ "Bf-dbS9CcRU": {
+  "channel": "Microsoft",
+  "ok": true,
+  "title": "The Future of Work With AI - Microsoft March 2023 Event"
+ },
+ "CnkM0AecxYA": {
+  "channel": "Agility",
+  "ok": true,
+  "title": "Embodied Artificial Intelligence"
+ },
+ "EL7Au1tzNxE": {
+  "channel": "Jon Gjengset",
+  "ok": true,
+  "title": "Vibe coding complex changes in Rust"
+ },
+ "ETZfkkv6V7Y": {
+  "ok": false,
+  "status": 401
+ },
+ "EWvNQjAaOHw": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "How I use LLMs"
+ },
+ "Fc3cW0nqAQ0": {
+  "channel": "Saman Amarasinghe",
+  "ok": true,
+  "title": "Programming Language Design and Implementation in the Era of Machine Learning"
+ },
+ "HB5TrK7A4pI": {
+  "channel": "Strange Loop Conference",
+  "ok": true,
+  "title": "\"We Really Don't Know How to Compute!\" - Gerald Sussman (2011)"
+ },
+ "JcQPAZP7-sE": {
+  "channel": "Sixty Symbols",
+  "ok": true,
+  "title": "Marking Exam Done by A.I. - Sixty Symbols"
+ },
+ "JeNS1ZNHQs8": {
+  "channel": "Kai Lentit",
+  "ok": true,
+  "title": "Interview with Vibe Coder in 2025"
+ },
+ "LCEmiRjPEtQ": {
+  "channel": "Y Combinator",
+  "ok": true,
+  "title": "Andrej Karpathy: Software Is Changing (Again)"
+ },
+ "LPZh9BOjkQs": {
+  "channel": "3Blue1Brown",
+  "ok": true,
+  "title": "Large Language Models explained briefly"
+ },
+ "NW6PhVdq9R8": {
+  "channel": "The PrimeTime",
+  "ok": true,
+  "title": "Real Game Dev Reviews Game By Devin.ai"
+ },
+ "NnV_cWeoo5Q": {
+  "channel": "Kernel Recipes",
+  "ok": true,
+  "title": "Kernel Recipes 2026 -  Security in the LLM age"
+ },
+ "ORgKY9AlybA": {
+  "channel": "languagejones",
+  "ok": true,
+  "title": "How to Detect AI Slop"
+ },
+ "PaCmpygFfXo": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "The spelled-out intro to language modeling: building makemore"
+ },
+ "PctlBxRh0p4": {
+  "channel": "Cool Worlds Podcast",
+  "ok": true,
+  "title": "#30 We Need To Talk About AI..."
+ },
+ "Q5baLehv5So": {
+  "ok": false,
+  "status": 401
+ },
+ "QrSCwxrLrRc": {
+  "channel": "Answer in Progress",
+  "ok": true,
+  "title": "why AI can't pass this test"
+ },
+ "Sir59K8ZDPU": {
+  "channel": "AI Engineer",
+  "ok": true,
+  "title": "Why Agentic Systems Need Ontologies \u2014 Frank Coyle, UC Berkeley"
+ },
+ "SlGRN8jh2RI": {
+  "channel": "Sequoia Capital",
+  "ok": true,
+  "title": "Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next"
+ },
+ "T8ByoAt5gCA": {
+  "channel": "Adam Conover",
+  "ok": true,
+  "title": "The A.I. Bubble is Bursting with Ed Zitron"
+ },
+ "T9aRN5JkmL8": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "AI prompt engineering: A deep dive"
+ },
+ "TPLPpz6dD3A": {
+  "channel": "Python Programmer",
+  "ok": true,
+  "title": "Oxford Researchers Discovered How to Use AI To Learn Like A Genius"
+ },
+ "VMj-3S1tku0": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "The spelled-out intro to neural networks and backpropagation: building micrograd"
+ },
+ "WO2X3oZEJOA": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "Glitch Tokens - Computerphile"
+ },
+ "X9RYuvPCQUA": {
+  "channel": "Kirby Ferguson",
+  "ok": true,
+  "title": "Everything is a Remix (2023 Edition)"
+ },
+ "XEM5qz__HOU": {
+  "ok": false,
+  "status": 403
+ },
+ "XZJc1p6RE78": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "Ch(e)at GPT? - Computerphile"
+ },
+ "XfpMkf4rD6E": {
+  "ok": false,
+  "status": 401
+ },
+ "XyQ4ZTS5dGw": {
+  "channel": "Zed Industries",
+  "ok": true,
+  "title": "Agentic Engineering in Action with Mitchell Hashimoto"
+ },
+ "Y65FRxE7uMc": {
+  "channel": "suckerpinch",
+  "ok": true,
+  "title": "Badness 0 (Apostrophe\u201bs version)"
+ },
+ "YThelfB2fvg": {
+  "channel": "Posy",
+  "ok": true,
+  "title": "Mouse Cursor History (and why I made my own)"
+ },
+ "Yf_1w00qIKc": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "A conversation on Claude Code"
+ },
+ "ZJUyVVFOXOc": {
+  "channel": "Vibe Coding With Steve and Gene",
+  "ok": true,
+  "title": "S1E8: Show And Tell: Efrit: When Steve Gives Claude Full Access To 50 Years of Emacs Capabilities"
+ },
+ "_zfN9wnPvU0": {
+  "channel": "Kurzgesagt \u2013 In a Nutshell",
+  "ok": true,
+  "title": "AI Slop Is Destroying The Internet"
+ },
+ "agzItTz35QQ": {
+  "ok": false,
+  "status": 404
+ },
+ "ajGX7odA87k": {
+  "channel": "USENIX",
+  "ok": true,
+  "title": "USENIX Security '18-Q: Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible?"
+ },
+ "b2F-DItXtZs": {
+  "channel": "gar1t",
+  "ok": true,
+  "title": "Episode 1 - Mongo DB Is Web Scale"
+ },
+ "bZQun8Y4L2A": {
+  "channel": "Microsoft Developer",
+  "ok": true,
+  "title": "State of GPT | BRK216HFS"
+ },
+ "biYciU1uiUw": {
+  "channel": "Folding Ideas",
+  "ok": true,
+  "title": "Contrepreneurs: The Mikkelsen Twins"
+ },
+ "bsRnh_brggM": {
+  "channel": "karthink",
+  "ok": true,
+  "title": "Every LLM in Emacs, with gptel"
+ },
+ "cP5zGh2fui0": {
+  "channel": "Sabine Hossenfelder",
+  "ok": true,
+  "title": "I believe chatbots understand part of what they say. Let me explain."
+ },
+ "cdiD-9MMpb0": {
+  "channel": "Lex Fridman",
+  "ok": true,
+  "title": "Andrej Karpathy: Tesla AI, Self-Driving, Optimus, Aliens, and AGI | Lex Fridman Podcast #333"
+ },
+ "d6iQrh2TK98": {
+  "channel": "Veritasium",
+  "ok": true,
+  "title": "Why is this number everywhere?"
+ },
+ "d7ltNiRrDHQ": {
+  "ok": false,
+  "status": 404
+ },
+ "dDUC-LqVrPU": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "Has Generative AI Already Peaked? - Computerphile"
+ },
+ "djzOBZUFzTw": {
+  "channel": "Boston Dynamics",
+  "ok": true,
+  "title": "Making Chat (ro)Bots"
+ },
+ "dutyOc_cAEU": {
+  "channel": "Visual Studio Code",
+  "ok": true,
+  "title": "VS Code Agent Mode Just Changed Everything"
+ },
+ "eMlx5fFNoYc": {
+  "channel": "3Blue1Brown",
+  "ok": true,
+  "title": "Attention in transformers, step-by-step | Deep Learning Chapter 6"
+ },
+ "eYVPThx7yss": {
+  "channel": "Atomic Shrimp",
+  "ok": true,
+  "title": "Microsoft\u2019s Sneaky Forced-Upsell to 365 Users; If You Don\u2019t Need/Want Copilot, Don\u2019t Pay for It"
+ },
+ "efPrtcLdcdM": {
+  "channel": "Yannic Kilcher",
+  "ok": true,
+  "title": "GPT-4chan: This is the worst AI ever"
+ },
+ "f2FnYRP5kC4": {
+  "channel": "Theo - t3\u2024gg",
+  "ok": true,
+  "title": "The Best Model For Frontend Design Is..."
+ },
+ "hGXhFa3gzBs": {
+  "channel": "Subbarao Kambhampati",
+  "ok": true,
+  "title": "Can LLMs Reason & Plan? (Talk @googledeepmind LLM Reasoning Seminar)"
+ },
+ "hJP5GqnTrNo": {
+  "channel": "TED",
+  "ok": true,
+  "title": "How AI Could Save (Not Destroy) Education | Sal Khan | TED"
+ },
+ "hM_h0UA7upI": {
+  "channel": "No Priors: AI, Machine Learning, Tech, & Startups",
+  "ok": true,
+  "title": "No Priors Ep. 80 | With Andrej Karpathy from OpenAI and Tesla"
+ },
+ "hQC5O3WTmuo": {
+  "channel": "Y Combinator",
+  "ok": true,
+  "title": "The REAL potential of generative AI"
+ },
+ "iF9iV4xponk": {
+  "channel": "Anthropic",
+  "ok": true,
+  "title": "The future of agentic coding with Claude Code"
+ },
+ "iV1EcfZSdCM": {
+  "channel": "Theo - t3\u2024gg",
+  "ok": true,
+  "title": "What\u2019s the best programming language for AI?"
+ },
+ "ia6aJIplmtc": {
+  "channel": "Google Developer Communities North America",
+  "ok": true,
+  "title": "Large Language Models and the Future of Programming by Peter Norvig"
+ },
+ "jaM02mb6JFM": {
+  "channel": "Gimel12",
+  "ok": true,
+  "title": "M3 max 128GB for AI running Llama2 7b 13b and 70b"
+ },
+ "jkrNMKz9pWU": {
+  "channel": "Jeremy Howard",
+  "ok": true,
+  "title": "A Hackers' Guide to Language Models"
+ },
+ "kCc8FmEb1nY": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "Let's build GPT: from scratch, in code, spelled out."
+ },
+ "l6DKRf-fAAM": {
+  "channel": "3Blue1Brown",
+  "ok": true,
+  "title": "Reinventing Entropy | Compression is Intelligence Part 1"
+ },
+ "l8pRSuU81PU": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "Let's reproduce GPT-2 (124M)"
+ },
+ "lXUZvyajciY": {
+  "channel": "Dwarkesh Patel",
+  "ok": true,
+  "title": "Andrej Karpathy \u2014 \u201cWe\u2019re summoning ghosts, not building animals\u201d"
+ },
+ "nfOVgz_omlU": {
+  "channel": "Armin Ronacher",
+  "ok": true,
+  "title": "Agentic Coding: The Future of Software Development with Agents"
+ },
+ "oFfVt3S51T4": {
+  "channel": "Lex Fridman",
+  "ok": true,
+  "title": "Cursor Team: Future of Programming with AI | Lex Fridman Podcast #447"
+ },
+ "ojL_VHc4gLk": {
+  "channel": "Code Sync",
+  "ok": true,
+  "title": "Keynote: Code Generators are Dead. Long Live Code Generators  - Chris McCord | ElixirConf EU 2025"
+ },
+ "outcGtbnMuQ": {
+  "channel": "OpenAI",
+  "ok": true,
+  "title": "GPT-4 Developer Livestream"
+ },
+ "pRM_P6UfdIc": {
+  "channel": "AI Engineer",
+  "ok": true,
+  "title": "Low Level Technicals of LLMs: Daniel Han"
+ },
+ "qV_rOlHjvvs": {
+  "channel": "Rational Animations",
+  "ok": true,
+  "title": "The True Story of How GPT-2 Became Maximally Lewd"
+ },
+ "qbIk7-JPB2c": {
+  "channel": "Sebastien Bubeck",
+  "ok": true,
+  "title": "Sparks of AGI: early experiments with GPT-4"
+ },
+ "qpoRO378qRY": {
+  "channel": "CBS Mornings",
+  "ok": true,
+  "title": "Full interview: \"Godfather of artificial intelligence\" talks impact and potential of AI"
+ },
+ "qx7hirqgfuU": {
+  "channel": "Welch Labs",
+  "ok": true,
+  "title": "Why Deep Learning Works Unreasonably Well [How Models Learn Part 3]"
+ },
+ "rCIZflYEpEk": {
+  "channel": "Salvatore Sanfilippo",
+  "ok": true,
+  "title": "Coding with AI episode 3: fixing a real world bug in Redis vector sets with LLMs"
+ },
+ "rURRYI66E54": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "AI Language Models & Transformers - Computerphile"
+ },
+ "s6zNXZaIiiI": {
+  "channel": "Rishiraj Acharya",
+  "ok": true,
+  "title": "State of GPT | Microsoft Build | Andrej Karpathy | OpenAI"
+ },
+ "tbDDYKRFjhk": {
+  "channel": "AI Engineer",
+  "ok": true,
+  "title": "Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford"
+ },
+ "uRuLgar5XZw": {
+  "channel": "The Pragmatic Engineer",
+  "ok": true,
+  "title": "AI tools for software engineers, but without the hype \u2013 with Simon Willison (Co-Creator of Django)"
+ },
+ "vaUuE582vq8": {
+  "ok": false,
+  "status": 404
+ },
+ "viJt_DXTfwA": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "ChatGPT with Rob Miles - Computerphile"
+ },
+ "wL22URoMZjo": {
+  "channel": "Computerphile",
+  "ok": true,
+  "title": "Sleeper Agents in Large Language Models - Computerphile"
+ },
+ "wVzuvf9D9BU": {
+  "channel": "AI Explained",
+  "ok": true,
+  "title": "GPT 4 is Smarter than You Think: Introducing SmartGPT"
+ },
+ "wjZofJX0v4M": {
+  "channel": "3Blue1Brown",
+  "ok": true,
+  "title": "Transformers, the tech behind LLMs | Deep Learning Chapter 5"
+ },
+ "x10964w00zk": {
+  "channel": "NYU Center for Mind, Brain and Consciousness",
+  "ok": true,
+  "title": "Debate: Do Language Models Need Sensory Grounding for Meaning and Understanding?"
+ },
+ "xoVJKj8lcNQ": {
+  "channel": "Center for Humane Technology",
+  "ok": true,
+  "title": "The A.I. Dilemma - March 9, 2023"
+ },
+ "yBL7J0kgldU": {
+  "channel": "Zeyuan Allen-Zhu, Sc.D.",
+  "ok": true,
+  "title": "ICML 2024 Tutorial: Physics of Language Models"
+ },
+ "ySEx_Bqxvvo": {
+  "channel": "Alexander Amini",
+  "ok": true,
+  "title": "MIT 6.S191 (2023): Recurrent Neural Networks, Transformers, and Attention"
+ },
+ "zZr54G7ec7A": {
+  "channel": "Terence Tao",
+  "ok": true,
+  "title": "Formalizing a proof in Lean using Claude and o4"
+ },
+ "zduSFxRajkE": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "Let's build the GPT Tokenizer"
+ },
+ "zjkBMFhNj_g": {
+  "channel": "Andrej Karpathy",
+  "ok": true,
+  "title": "[1hr Talk] Intro to Large Language Models"
+ },
+ "zuJyJP517Uw": {
+  "channel": "Latent Space",
+  "ok": true,
+  "title": "Steve Yegge's Vibe Coding Manifesto: Why Claude Code Isn't It & What Comes After the IDE"
+ },
+ "zwi5b5xSsKA": {
+  "channel": "TigerBeetle",
+  "ok": true,
+  "title": "State of the (Tagged) Union Address by Andrew Kelley"
+ }
+}
